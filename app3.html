@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+
+var obj = JSON.parse('{"Dentist":"Advanced Family Dentistry","Address":"613 Amherst St, Nashua, NH 03063","Adult":103,"Child":82,"Fluoride":42,"White":263,"Periodic":58}');
+document.getElementById("demo").innerHTML = "Dentist:" + obj.Dentist + " Address: " + obj.Address + " Adult: " + obj.Adult + " Child:" + obj.Child + " Fluoride: " + obj.Fluoride + "White:" + obj.White+ "Periodic:" + obj.Periodic ;
+
+
+
+</script>
+
+</body>
+</html>
+
+<!--
+{"Dentist":"Advanced Family Dentistry","Address":"613 Amherst St, Nashua, NH 03063","Adult cleaning cost":103,"Child cleaning cost":82,"Fluoride":42,"White dental filling":263,"Periodic dental exam":58} -->
