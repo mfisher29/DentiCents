@@ -1,0 +1,63 @@
+<html>
+  <head>  	
+  </head>
+  <body style="width: 100%; height: 100%;">
+	  <style>
+	p {
+	    border-style: solid;
+	    box-shadow: 10px 10px 5px #888888;
+	    border-color: #a9a9a9;
+	    text-align: center;
+	    width: 400px;
+	}
+
+	#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+	</style>
+	  <div class="greybox">
+	  <p class="large">
+	    <div style="top:20%; left: 35%; position: absolute;">
+	        <div>
+	        <h1 'border:2px black solid'>
+		        <p> <font face="trebuchet MS" color="#d3d3d3" size="10">
+			        DENTICENTS <br>   
+			        </font>
+			        <font face="trebuchet MS" color="#77aaff" size="3">
+			        Please enter a dental procedure to continue
+		        </p>
+	        </h1>
+	            <br>
+				<script type="text/javascript">
+				function goTo()
+				{
+					var text = document.getElementById('link_id');
+					text.text = text.text + '.html'
+				    location.href = text.value + '.html';
+				}
+
+				</script>
+				<div style="top: 80%; left: 15%; position: absolute;">
+				<input type='text' id='link_id'>
+				<input type='button' id='link' value='Search' onClick='javascript:goTo()'>
+				</div>
+
+
+				<!-- ADD CREDITS HERE
+				<div style="top: 100%; left: 2%; position: absolute;">
+			  <p>Credits: </p>
+			  <p> All Rights Reserved </p>
+			</div> -->
+
+
+	        </div>
+	    </div>
+
+
+  </body>
+</html>
