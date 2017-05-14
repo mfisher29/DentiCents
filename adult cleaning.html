@@ -1,0 +1,149 @@
+<div class="top-bar">
+<script>
+document.write("<b>D E N T I C E N T S</b>");
+</script>
+</div>
+
+<div id="container">
+<div id="top-bar">
+<div class="fixed-width">
+<div id="map" style="width:760px;height:600px;position: absolute;
+    top: 80px;
+    right: 0">
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<div id="map-canvas" style="height: 100%; width: 100%"></div>
+<script type="text/javascript">
+    var map;
+    function show_map() {
+        map = new google.maps.Map(document.getElementById("map-canvas"), {
+            zoom: 10,
+            center: new google.maps.LatLng(42.9820495097, -71.4733855212)
+        });
+        new google.maps.Marker({
+    position: new google.maps.LatLng(42.80198725, -71.5382139368),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(43.00669835, -71.4635276485),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(43.0040756441, -71.4624521206),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(43.07557255, -71.4682280836),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(43.0061235812, -71.4660555506),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(43.00633605, -71.462327308),
+    map: map
+    });
+new google.maps.Marker({
+    position: new google.maps.LatLng(42.9735531429, -71.452894),
+    map: map
+    });
+    }
+    google.maps.event.addDomListener(window, 'load', show_map);
+</script>
+</div>
+
+<br>
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Advanced Family Dentistry","Address":"613 Amherst St, Nashua, NH 03063","Adult":103,"Child":82,"Fluoride":42,"White":263,"Periodic":58}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Webster Dental Association","Address":"40 Webster St, Manchester, NH 03104","Adult":135}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Chestnut Family Dental","Address":"745 Chestnut St, Manchester, NH 03104","Adult":116}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Marina U Becker DMD PC","Address":"60 Roger Street, Manchester, NH 03103","Adult":102}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Amazing Smiles Family Dental","Address":"311 W River Rd, Hooksett, NH 03106","Adult":111}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="greybox">
+<div style="text-align: center;">
+<div style="display: inline-block; text-align: left">
+<p class="large"><script>
+var obj = JSON.parse('{"Dentist":"Manchester Dental plc","Address":"26 W Webster St, Manchester, NH 03104","Adult":102}');
+document.write("Facility: " + obj.Dentist + "<br> Address: " + obj.Address + "<br>Adult Cleaning: <b>$" + obj.Adult+"</b>");
+</script></p>
+<div class="button-wrapper" style="position:left">
+  <a class="button cta-button" href="#">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+
